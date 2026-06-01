@@ -1,0 +1,17 @@
+name: LangSync
+version: 1.0
+main: ru.treasworld.translator.Main
+api-version: 1.21
+description: Автоматически переводит сообщения чата на язык каждого игрока в реальном времени.
+
+commands:
+  lang:
+    description: Установить язык перевода
+    usage: /lang [ru|en|he|de|fr|list|off]
+    permission: langsync.use
+    permission-message: ""
+
+permissions:
+  langsync.use:
+    description: Использовать команду /lang
+    default: true

@@ -1,0 +1,11 @@
+default-lang: en
+show-original: true
+
+# Automatically set player language from their Minecraft client locale on first join
+# Set to false if you want players to choose their language manually via /lang
+auto-detect: true
+
+# Maximum number of cached translations in memory
+# When the limit is reached, the cache is cleared to free RAM
+# Lower = less RAM, higher = fewer repeat API calls
+cache-max-size: 500
